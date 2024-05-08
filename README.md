@@ -1,11 +1,9 @@
 # EXPERIMENT NO: 8 D-FLIPDLOP-NEGEDGE
 
 ## AIM:
-
 To implement  D flipflop using verilog and validating their functionality using their functional tables
 
 ## SOFTWARE REQUIRED:
-
 Quartus prime
 
 ## THEORY
@@ -47,13 +45,12 @@ b. If the reset signal is not asserted:
  Program for flipflops and verify its truth table in quartus using Verilog programming.   
  Developed by: ARCHANA T  
  RegisterNumber:212223240013
-
+ 
  module d_flipflop(D,Clock,reset,Q);  
 input D,reset,Clock;  
 output reg Q;  
 always @ (negedge Clock)  
 if(!reset)    
-
 Q <= 0;   
 else  
 Q <= D;  
@@ -61,15 +58,10 @@ endmodule
 
 
 ## RTL LOGIC FOR FLIPFLOPS
-
-
 ![d flip flop diagram](https://github.com/ARCHANAT1305/D-FLIPDLOP-NEGEDGE/assets/145975189/255691fd-80ac-42d5-9cfa-1811938e424a)
 
 
-
 ## TIMING DIGRAMS FOR FLIP FLOPS
-
-
 ![d flip flop waveform](https://github.com/ARCHANAT1305/D-FLIPDLOP-NEGEDGE/assets/145975189/64da7159-7f02-45b0-9a7a-d8a3e75a1e6e)
 
 
